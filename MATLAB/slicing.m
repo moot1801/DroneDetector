@@ -1,5 +1,5 @@
 % [1] 데이터 불러오기 (.mat 파일에 따라 수정)
-mat = load("C:\AIEEE\DATASET\CARDRF\LOS\Train\UAV\BEEBEERUN\FLYING\BEEBEERUN_0000100011.mat");
+mat = load("C:\AIEEE\DATASET\CARDRF\LOS\Train\UAV\BEEBEERUN\FLYING\BEEBEERUN_0000100020.mat");
 raw = mat.Channel_1.Data;
 signal = double(raw);
 % [2] 전압 변환 (선택) — 실제 전압 단위로 변환
